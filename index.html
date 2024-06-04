@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/output.css">
+    <meta charset="UTF-8">
+    <title>Tea Gang: Output</title>
+</head>
+<body>
+        <div class = "container">
+            <form method = "POST">
+                <img src = "pics/TEA GANG-2.png">
+                <span class = "header"> Order Form<br></span>
+                <div class = "row1">
+                    <label for = "orderID">Order ID</label>
+                    <input type = "text" name = "orderID" id = "orderID">
+                    <label for = "date">Date</label>
+                    <input type = "date" id = "date" name = "date">
+
+                </div>
+                <hr style ="width:100%; height:2px;width:100%;background-color:gray"/>
+                <div class = "row2">
+                    <label for = "orders">Order/s:<br></label>
+                    <textarea id = "orders" name = "orders" rows="10" cols="55" placeholder="" style="resize:none;"></textarea>
+                </div>
+                <div class = "row3">
+                    <label for = "specreq">Special Request: <br></label>
+                    <input type = "text" name = "specreq" id = "specreq" height="500" size = "65">
+                </div>
+                <div class = "row4">
+                    <label for = "payment">Payment Method: <br></label>
+                    <input type = "text" name = "payment" id = "payment" size = "65">
+                </div>
+                <div class = "row5">
+                    <label for = "total">Total Amount: <br></label>
+                    <input type = "text" name = "total" id = "total" size = "65">
+                </div>
+                <footer class = "buttons">
+                    <a class = "back" href = "">Back</a>
+                    <button class = "placeorder" type = "submit" value = "Submit">Place Order</button>
+                </footer>
+            </form>
+        </div>
+	
+    
+	
+</body>
+</html>
